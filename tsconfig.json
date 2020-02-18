@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"noUnusedLocals": true,
+		"pretty": true,
+		"resolveJsonModule": true,
+		"strictNullChecks": true,
+		"noEmit": true
+	},
+	"include": ["src/**/*"]
+}

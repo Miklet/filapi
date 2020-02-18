@@ -1,0 +1,32 @@
+{
+	"name": "filapi",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Paweł Mikołajczyk",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Miklet/node-json-api"
+	},
+	"license": "MIT",
+	"private": false,
+	"keywords": [
+		"node",
+		"json",
+		"api"
+	],
+	"dependencies": {
+		"loglevel": "^1.6.7",
+		"path-to-regexp": "^6.1.0"
+	},
+	"devDependencies": {
+		"@types/jest": "^25.1.2",
+		"@types/node": "^13.7.1",
+		"cz-conventional-changelog": "3.1.0",
+		"jest": "^25.1.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
